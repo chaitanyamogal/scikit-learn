@@ -510,7 +510,7 @@ def _binary_clf_curve(y_true, y_score, pos_label=None, sample_weight=None):
         True targets of binary classification
 
     y_score : array, shape = [n_samples]
-        Estimated probabilities or decision function
+        Estimated probabilities or output of a decision function
 
     pos_label : int or str, default=None
         The label of the positive class
@@ -629,7 +629,7 @@ def precision_recall_curve(y_true, probas_pred, *, pos_label=None,
         pos_label should be explicitly given.
 
     probas_pred : array, shape = [n_samples]
-        Estimated probabilities or decision function.
+        Estimated probabilities or output of a decision function.
 
     pos_label : int or str, default=None
         The label of the positive class.
